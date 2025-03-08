@@ -1,0 +1,29 @@
+JavaScript Notes 
+1. JavaScript Basics:
+
+JavaScript is a scripting language used to make web pages interactive.
+Example:    console.log("Hello, World!");
+
+2. Variables in JavaScript: 
+ 
+Variables store data and are declared using var, let, or const. 
+Example:    var x = 10; let y = 20; const z = 30;    console.log(x, y, z); 
+
+3. Data Types: 
+
+JavaScript has primitive and non-primitive types. 
+Example:    let num = 10; let text = "Hello"; let isTrue = true; 
+
+4. Comments in JavaScript: 
+
+Used to explain code. 
+Example:    // Single-line comment    /* Multi-line comment */ 
+
+5. Identifier Rules: 
+
+Names must begin with a letter, _, or $. Cannot start with a number. 
+
+6. Operators and Their Precedence:- 
+
+Arithmetic: +, -, *, /, %- Comparison: ==, ===, !=, >, <- Logical: &&, ||, !- Assignment: =, +=, -=, *=
+Example:    let a = 10, b = 5;    console.log(a + b, a - b, a * b);

@@ -1,0 +1,46 @@
+<!-- Task 2: Create a Simple Responsive Website with Different Content & Colors
+To create a responsive website with content and colors that change based on screen size, we use HTML + CSS Media Queries. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            transition: all 0.3s ease;
+        }
+        .content {
+            padding: 20px;
+        }
+
+        /* Default Background */
+        body { background-color: lightgray; }
+
+        /* Tablet View */
+        @media (max-width: 768px) {
+            body { background-color: lightblue; }
+            .content { font-size: 18px; }
+        }
+
+        /* Mobile View */
+        @media (max-width: 480px) {
+            body { background-color: lightgreen; }
+            .content { font-size: 16px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Responsive Webpage</h1>
+        <p>This page changes background color based on screen size.</p>
+    </div>
+
+</body>
+</html>
